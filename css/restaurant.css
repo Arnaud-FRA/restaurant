@@ -1,16 +1,14 @@
-html {
-    background-color: #d1a866;
-}
+
 
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #B88D73;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     padding: 15px 0;
@@ -28,10 +26,10 @@ body {
 }
 
 nav {
-    display: flex;
+    display:flex;
     justify-content: space-between;
-    align-items: center;
     width: 75%;
+
 }
 
 nav a {
@@ -39,9 +37,11 @@ nav a {
     text-decoration: none;
     padding: 14px 20px;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
 }
-
+a:hover {
+    background-color: #575757;
+}
 
 #Recherche {
     background-image: url('comment-faire-fond-blanc-brun-pour-sauce.jpg');
@@ -56,6 +56,41 @@ nav a {
     background-position-y: 60%;
 }
 
+#Catégorie,
+#plats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Cat,
+.plats {
+    width: 33%;
+    text-align: center;
+}
+
+.Cat img,
+.plats img {
+    height: 300px;
+    object-fit: cover;
+    width: 80%;
+    border-radius: 200px;
+}
+
+
+
+#pasta {
+    object-position: 100% 80%;
+}
+
+
+
+#buffalo-chicken {
+    object-position: 100% 70%;
+}
+
+
 
 footer {
     display: flex;
@@ -63,4 +98,8 @@ footer {
     padding: 10px;
 
     color: white;
+}
+
+p{
+    font-size: larger;
 }

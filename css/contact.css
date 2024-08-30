@@ -1,0 +1,124 @@
+
+body {
+    background-color: #B88D73;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo {
+  width: 25%;
+}
+
+.logo img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#Recherche {
+  background-image: url("comment-faire-fond-blanc-brun-pour-sauce.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 219px;
+  width: 100%;
+  color: white;
+  display: flex;
+  background-position-y: 60%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  justify-content: space-around;
+}
+
+form div{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+#champ_demande{
+    width: 95%;
+}
+
+input {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+
+}
+
+label {
+    width: 15%;
+
+}
+
+#demande {
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#email, #téléphone, #nom, #prénom, #demande,  label{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+button{
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+ font-size: 1,5rem;
+ margin-top: 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: darkblue;
+}
+
+::placeholder {
+    color:red ;
+}
+a:hover {
+    background-color: #575757;
+}
